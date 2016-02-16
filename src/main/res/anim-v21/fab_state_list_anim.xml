@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<!--
   Copyright 2015 Google Inc.
 
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,21 +18,19 @@
     <item
         android:state_enabled="true"
         android:state_pressed="true">
-        <set>
-            <objectAnimator
-                android:duration="@android:integer/config_shortAnimTime"
-                android:propertyName="translationZ"
-                android:valueTo="@dimen/fab_press_translation_z"
-                android:valueType="floatType" />
-        </set>
+        <objectAnimator
+            android:duration="@android:integer/config_shortAnimTime"
+            android:propertyName="elevation"
+            android:valueFrom="@dimen/fab_elevation"
+            android:valueTo="@dimen/fab_press_elevation"
+            android:valueType="floatType" />
     </item>
     <item>
-        <set>
-            <objectAnimator
-                android:duration="@android:integer/config_shortAnimTime"
-                android:propertyName="translationZ"
-                android:valueTo="0"
-                android:valueType="floatType" />
-        </set>
+        <objectAnimator
+            android:duration="@android:integer/config_shortAnimTime"
+            android:propertyName="elevation"
+            android:valueFrom="@dimen/fab_press_elevation"
+            android:valueTo="@dimen/fab_elevation"
+            android:valueType="floatType" />
     </item>
 </selector>
