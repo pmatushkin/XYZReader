@@ -13,5 +13,9 @@
     <dimen name="refresh_indicator_elevation">3dp</dimen>
 
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_card_padding">16dp</dimen>
+    <dimen name="text_card_small_padding">4dp</dimen>
 
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
 </resources>
